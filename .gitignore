@@ -1,0 +1,8 @@
+/config/config.json
+node_modules/
+npm-debug.log
+
+# vim swap files
+*.sw*
+# spacemacs files
+.#*

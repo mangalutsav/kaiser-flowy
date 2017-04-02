@@ -1,0 +1,8 @@
+{
+  "host"     : "host-name",
+  "user"     : "user-name",
+  "password" : "password",
+  "database" : "flowy",
+  "accounts_url": "http://accounts.sdslabs.local/info",	
+  "base_url" : "https://flowy.local"
+}
