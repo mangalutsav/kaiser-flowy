@@ -1,0 +1,53 @@
+#view
+  table
+    border-collapse: collapse
+    td, th
+      padding: 5px
+
+.block
+    $indent-padding: 50px
+    padding-left: $indent-padding
+
+    .bullet
+        float: left
+        position: relative
+        display: inline-block
+        // hack!
+        margin-top: 2px
+        margin-left: - $indent-padding / 2 - 5
+
+        &.clone-icon
+            margin-left: - $indent-padding - 5
+
+
+.node
+    $node-min-height: 25px
+
+    // min height should be at least font size
+    min-height: $node-min-height
+    font-size: 14px
+
+    .node-text
+        margin-left: 10px
+        display: block
+        overflow-wrap: break-word
+        white-space: pre-wrap
+        min-height: $node-min-height
+
+.searchBox
+    white-space: pre-wrap
+    padding: 10px
+    margin-bottom: 20px
+
+.hotkey
+  padding: 2px
+  border-radius: 5px
+
+
+
+@keyframes blink
+   50%
+     visibility: hidden
+
+.blink-background
+  animation: blink .5s step-end infinite alternate

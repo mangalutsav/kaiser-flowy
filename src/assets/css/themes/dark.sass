@@ -1,0 +1,34 @@
+@import '../constants'
+
+body#dark-theme
+    color: #EEEEEE
+
+    .theme-cursor
+        color: $color-black
+        background-color: #CCC
+
+    .theme-text-link
+        color: $color-link-blue
+        cursor: pointer
+        text-decoration: none
+
+    .theme-text-accent
+        color: #CCCC00
+
+    &.theme-bg-primary, .theme-bg-primary
+        background-color: $color-black
+
+    .theme-bg-secondary
+        background-color: #333333
+
+    .theme-bg-highlight
+        background-color: #666  // #770 for yellowish
+
+    .theme-bg-selection
+        background-color: #333333
+
+    .theme-trim, table td, table th
+        border: 1px solid #EEEEEE
+
+    .theme-trim-accent
+        border: 2px solid #CCCC00

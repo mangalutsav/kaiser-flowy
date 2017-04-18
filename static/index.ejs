@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Kaiserflowy
+    </title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+  </head>
+
+  <body id="default-theme">
+<% if (!user) { %>
+  <div style="width:500px;height:180px;">
+    <h2 style="font-size:40px;">Welcome! Please log in.</h2>
+    <a href="/auth/facebook"><img src="./assets/fb-login.png" width="351" height="150"></a>
+    </div>
+<% } else { %>
+    <script type="text/javascript">
+      window.location="http://localhost:3000"
+    </script>
+<% } %>
+  </body>
+</html>

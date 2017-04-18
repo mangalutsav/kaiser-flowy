@@ -1,0 +1,16 @@
+/dist/
+/static/build/
+.sass-cache
+.bitballoon
+
+node_modules/
+npm-debug.log
+
+# vim swap files
+*.sw*
+# spacemacs files
+.#*
+
+/todo
+.DS_Store
+oauth2.json
